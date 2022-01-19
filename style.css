@@ -231,6 +231,11 @@ nav {
     .inside-dis {
         padding: 0;
     }
+
+    .footer-dis {
+        width: 80%;
+        margin: auto;
+    }
 }
 
 /* client testimonials  */
@@ -433,5 +438,10 @@ footer {
     .gallery {
         grid-template-areas: 
         "one two three four";
+    }
+
+    .footer-dis {
+        width: 350px;
+        margin: auto;
     }
 }
