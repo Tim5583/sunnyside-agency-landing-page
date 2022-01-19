@@ -102,7 +102,7 @@ nav {
 }
 
 /* for navigation bar  */
-@media (min-width: 699px) {
+@media (min-width: 722px) {
         /* navigation bar  */
         #hamburger-icon {
             display: none;
@@ -209,6 +209,9 @@ nav {
 .inside-dis {
     position: absolute;
     bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    margin: auto;
 }
 
 .inside-dis h2, .inside-dis p {
@@ -394,7 +397,8 @@ footer {
         grid-template-areas: 
             "trans-text trans-img"
             "stand-img stand-text"
-            "graphic photography";
+            "graphic graphic"
+            "photography photography";
     }
     .services-dis a::after {
         margin: 0;
@@ -427,11 +431,8 @@ footer {
         grid-area: photography;
     }
 
-    /* client tetstimonials  */
-    .row {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: .5rem;
+    .inside-dis {
+        bottom: 10rem;
     }
 
     /* gallery  */
@@ -443,5 +444,25 @@ footer {
     .footer-dis {
         width: 350px;
         margin: auto;
+    }
+}
+
+@media (min-width: 740px) {
+    #services {
+        grid-template-areas: 
+            "trans-text trans-img"
+            "stand-img stand-text"
+            "graphic photography";
+    }
+
+    .inside-dis {
+        bottom: 1rem;
+    }
+
+    /* client tetstimonials  */
+    .row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: .5rem;
     }
 }
