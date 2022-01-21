@@ -35,7 +35,7 @@ h1 {
     letter-spacing: .5rem;
 }
 
-h2 {
+h2, .client-tes-h2 {
     font-size: 2rem;
     font-weight: 900;
 }
@@ -244,13 +244,19 @@ nav {
 /* client testimonials  */
 
 .client-testimonials {
+    width: 90%;
     text-align: center;
     padding: 2.3rem;
-    margin: 1rem 0;
+    margin: 3rem auto 0;
 }
 
-.client-testimonials div {
+.row {
     margin: 3rem 0;
+}
+
+.row div {
+    padding: .5rem;
+    margin: 1rem 0;
 }
 
 .client-testimonials p {
@@ -258,7 +264,7 @@ nav {
     padding-bottom: 1rem;
 }
 
-.client-testimonials h2 {
+.client-tes-h2 {
     font-size: 1.1rem;
     letter-spacing: .4rem;
     color: var(--Grayish-blue);
